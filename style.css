@@ -1,5 +1,4 @@
 /* Defualt css */
-
 body {
   font-family: "Rubik", sans-serif;
   margin: 0;
@@ -59,7 +58,7 @@ p {
   );
   background-image: linear-gradient(90deg, #fe4a2f, #fba15a);
 }
-/* Hero Section CSS */
+/* 01 Hero Section CSS */
 .hero-section {
   position: relative;
 }
@@ -153,7 +152,7 @@ p {
 .hero-section .hero-container .hero-right-img img {
   width: 70%;
 }
-/* About Section CSS */
+/* 02 About Section CSS */
 .about-section {
   height: 60vh;
   display: -webkit-box;
@@ -172,7 +171,7 @@ p {
 }
 
 .about-section .about-left-img img {
-  width: 40%;
+  width: 43%;
 }
 
 .about-section .about-right-text {
@@ -183,7 +182,7 @@ p {
 .about-section .about-right-text p {
   color: gray;
 }
-/* Recipie Section CSS */
+/* 03 Recipie Section CSS */
 .recipie-section {
   margin: 100px 0;
 }
@@ -237,7 +236,7 @@ p {
   color: black;
   text-transform: capitalize;
 }
-/* Follower Section CSS */
+/* 04 Follower Section CSS */
 .follower-section {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -258,7 +257,7 @@ p {
   font-size: 35px;
   margin-bottom: 5px;
 }
-/* Enroll Section CSS */
+/* 05 Enroll Section CSS */
 .enroll-section {
   padding: 100px 7%;
   background: url(img/background-form.jpg) no-repeat;
@@ -310,7 +309,7 @@ p {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
-/* Descount Section CSS */
+/* 06 Descount Section CSS */
 .descount-section {
   background-image: -webkit-gradient(
     linear,
@@ -347,7 +346,7 @@ p {
   color: rgba(221, 221, 221, 0.829);
   text-transform: capitalize;
 }
-/* Footer Section CSS */
+/* 07  Footer Section CSS */
 footer {
   background-color: black;
   padding: 50px;
