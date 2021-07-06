@@ -345,6 +345,7 @@ p {
 
 .descount-section .discount-left-text p {
   color: rgba(221, 221, 221, 0.829);
+  text-transform: capitalize;
 }
 /* Footer Section CSS */
 footer {
