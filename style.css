@@ -1,0 +1,363 @@
+/* Defualt css */
+
+body {
+  font-family: "Rubik", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 65px;
+}
+
+h3 {
+  font-size: 40px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Roboto", sans-serif;
+}
+
+p {
+  color: gray;
+  line-height: 1.5;
+}
+
+.btn {
+  text-decoration: none;
+  font-size: 18px;
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 10px 25px;
+  border-radius: 25px;
+  color: white;
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#fba15a),
+    to(#fe4a2f)
+  );
+  background-image: linear-gradient(90deg, #fba15a, #fe4a2f);
+  margin-top: 15px;
+  -webkit-transition: 0.3s all ease-in-out;
+  transition: 0.3s all ease-in-out;
+}
+
+.btn:hover {
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#fe4a2f),
+    to(#fba15a)
+  );
+  background-image: linear-gradient(90deg, #fe4a2f, #fba15a);
+}
+/* Hero Section CSS */
+.hero-section {
+  position: relative;
+}
+
+.hero-section header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  width: 100%;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 10px 0;
+  background-color: #fd5532;
+  -webkit-box-shadow: 7px 0 30px #fd5532;
+  box-shadow: 7px 0 30px #fd5532;
+}
+
+.hero-section header .logo {
+  width: 25%;
+  text-align: center;
+}
+
+.hero-section header .logo img {
+  width: 30%;
+}
+
+.hero-section header nav {
+  width: 50%;
+  text-align: center;
+}
+
+.hero-section header nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
+  list-style-type: none;
+}
+
+.hero-section header nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.hero-section header .header-btn {
+  width: 25%;
+  text-align: center;
+}
+
+.hero-section header .header-btn a {
+  margin-top: 0;
+}
+
+.hero-section .hero-container {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.hero-section .hero-container .hero-left-text {
+  width: 50%;
+  padding-left: 8%;
+}
+
+.hero-section .hero-container .hero-left-text h1 {
+  text-transform: capitalize;
+  line-height: 1.2;
+}
+
+.hero-section .hero-container .hero-left-text h1 span {
+  color: #fd5532;
+}
+
+.hero-section .hero-container .hero-left-text p {
+  font-size: 20px;
+}
+
+.hero-section .hero-container .hero-right-img {
+  width: 50%;
+  text-align: center;
+}
+
+.hero-section .hero-container .hero-right-img img {
+  width: 70%;
+}
+/* About Section CSS */
+.about-section {
+  height: 60vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: url(img/7.png) no-repeat;
+  background-size: cover;
+}
+
+.about-section .about-left-img {
+  width: 50%;
+  text-align: center;
+}
+
+.about-section .about-left-img img {
+  width: 40%;
+}
+
+.about-section .about-right-text {
+  width: 50%;
+  padding-right: 8%;
+}
+
+.about-section .about-right-text p {
+  color: gray;
+}
+/* Recipie Section CSS */
+.recipie-section {
+  margin: 100px 0;
+}
+
+.recipie-section .recipie-tittle {
+  text-align: center;
+  margin: 50px 0 70px 0;
+}
+
+.recipie-section .recipie-tittle h3 {
+  margin-bottom: 5px;
+}
+
+.recipie-section .recipie-post {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 7%;
+}
+
+.recipie-section .recipie-post .item {
+  width: 90%;
+  -webkit-box-shadow: 7px 10px 40px gray;
+  box-shadow: 7px 10px 40px gray;
+  margin: 0 35px;
+  border-radius: 25px;
+}
+
+.recipie-section .recipie-post .item .img-box {
+  width: 89%;
+  margin: 25px;
+  border-radius: 25px;
+}
+
+.recipie-section .recipie-post .item .img-box img {
+  width: 100%;
+  display: block;
+  border-radius: 25px;
+}
+
+.recipie-section .recipie-post .item .tittle-box {
+  padding: 0 25px 25px 25px;
+}
+
+.recipie-section .recipie-post .item .tittle-box h4 {
+  font-size: 25px;
+}
+
+.recipie-section .recipie-post .item .tittle-box h4 a {
+  text-decoration: none;
+  color: black;
+  text-transform: capitalize;
+}
+/* Follower Section CSS */
+.follower-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 80px 7%;
+  -webkit-box-shadow: 7px 10px 40px gray;
+  box-shadow: 7px 10px 40px gray;
+  border-radius: 25px;
+}
+
+.follower-section .follower-item {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 45px;
+}
+
+.follower-section .follower-item h4 {
+  font-size: 35px;
+  margin-bottom: 5px;
+}
+/* Enroll Section CSS */
+.enroll-section {
+  padding: 100px 7%;
+  background: url(img/background-form.jpg) no-repeat;
+  background-size: cover;
+}
+
+.enroll-section .enroll-tittle {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.enroll-section .enroll-tittle h3 {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.enroll-section .enroll-tittle h5 {
+  color: #fd5532;
+}
+
+.enroll-section .enroll-form form {
+  width: 100%;
+}
+.enroll-section .enroll-tittle img {
+  margin-bottom: 50px;
+}
+
+.enroll-section .enroll-form form .top-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.enroll-section .enroll-form form .top-row input {
+  width: 100%;
+  padding: 10px 35px;
+  margin-right: 25px;
+}
+
+.enroll-section .enroll-form form .top-row select {
+  width: 100%;
+  padding: 10px 35px;
+}
+
+.enroll-section .enroll-form form textarea {
+  width: 100%;
+  margin: 25px 0px;
+  padding: 25px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/* Descount Section CSS */
+.descount-section {
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#fc8f49),
+    to(#fe4c30)
+  );
+  background-image: linear-gradient(90deg, #fc8f49, #fe4c30);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 80px 7%;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 25px;
+  -webkit-box-shadow: 7px 10px 35px #c05411;
+  box-shadow: 7px 10px 35px #c05411;
+}
+
+.descount-section .discount-left-text {
+  width: 70%;
+  text-align: center;
+  margin-bottom: 35px;
+  color: white;
+}
+
+.descount-section .discount-left-text h3 {
+  margin-bottom: 5px;
+}
+
+.descount-section .discount-left-text p {
+  color: rgba(221, 221, 221, 0.829);
+}
+/* Footer Section CSS */
+footer {
+  background-color: black;
+  padding: 50px;
+  text-align: center;
+  color: white;
+}
+
+footer h3 {
+  margin-bottom: 5px;
+}
+
+footer h3 span {
+  color: #fd5532;
+}
